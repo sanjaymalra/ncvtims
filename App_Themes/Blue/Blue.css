@@ -1,0 +1,133 @@
+﻿/*Shades- darkest to lightest*/
+/*
+Shade 1    color: #002595;
+Shade 2    color: #0031C4;
+Shade 3    color: #3366CC;
+Shade 4    color: #668BD9;
+Shade 5    color: #C7D5F1;
+*/
+html {
+    scrollbar-track-color: #C7D5F1;
+    scrollbar-face-color: #3366CC;
+    scrollbar-arrow-color: #002595;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #C7D5F1;
+    background-color: #C7D5F1;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #C7D5F1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #668BD9), color-stop(0.50, #3366CC), color-stop(0.86, #0031C4));
+}
+
+#body {
+    box-shadow: -10px 0px 10px -10px #3366CC, 10px 0px 10px -10px #3366CC;
+}
+/*Image*/
+div.menu, div.menu ul, div.menu ul li a, #footer, #footer_popup, div.menu ul li a:hover, h2, .h2, input[type=button], input[type=submit], table.form thead th, table.form thead td, .grid .header th, .grid .header td, .grid .pager td, .marks .footer td , a.linkblock{
+    background-image: url('../../Images/img_bg_b.png');
+}
+/* Border*/
+.darkx, h1 {
+    border-color: #002595;
+}
+
+.dark, h2, .h2 {
+    border-color: #0031C4;
+}
+
+.normal, h3, .h3, #header, #footer, #footer_popup, hr, div.menu, div.menu ul, div.menu ul li a, .panel, .accordian, .border, table.form, table.form thead th, table.form thead td, .grid, .grid .header th, .sitelink li {
+    border-color: #3366CC;
+}
+
+.homeimage {
+    box-shadow: 4px 4px 4px 4px #C7D5F1;
+}
+
+.shadow {
+    box-shadow: -10px -10px 10px -10px #3366CC, 10px 10px 10px -10px #3366CC;
+}
+
+.light, .export_link ul, .grid .row td, .grid .alt_row td {
+    border-color: #668BD9;
+}
+
+.lightx, .grid .pager a, .grid .pager span {
+    border-color: #C7D5F1;
+}
+
+.lightxx, table.form th, table.form td {
+    border-color: #BFCFF0;
+}
+
+/* Color */
+.darkx, h1, .sitename, #footer, div.menu ul li a, input[type=button], input[type=submit] {
+    color: black;
+}
+
+#header .sitename, #header_popup .sitename {
+    color: #002595;
+}
+
+.dark, h2, .h2, h4, h6 {
+    color: black;
+}
+
+.normal, h3, .h3, h5, .note {
+    color: black;
+}
+
+.light {
+    color: #668BD9;
+}
+
+.lightx {
+    color: #C7D5F1;
+}
+
+.lightxx {
+    color: #BFCFF0;
+}
+
+/*Background Color*/
+.darkxxb {
+    background-color: #003399;
+}
+
+.darkxb {
+    background-color: #C7D5F1;
+}
+
+.darkb {
+    background-color: #BFCFF0;
+}
+
+.normalb, .grid .pager span, .grid .pager a:hover {
+    background-color: #D0DCF4;
+}
+
+.lightb {
+    background-color: #DBE3F7;
+}
+
+.lightxb {
+    background-color: #E7ECFA;
+}
+
+.lightxxb, .grid .alt_row {
+    background-color: #F3F5FC;
+}
+
+.marks .row:hover {
+    background-color: white;
+}
+
+.scroll-message {
+    background-color: #FFFF00;
+    color: #002595;
+    box-shadow: 5px 5px 5px 5px #002595;
+}
